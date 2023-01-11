@@ -1,0 +1,103 @@
+body{
+    font-family:Arial,sans-serif;
+    background-size: cover;
+    background-color:#efd0ff;
+  
+  }
+  
+  .card-home{
+    opacity:0.8;
+    padding:2px;
+    position:relative;
+    top: 300px;
+    width:500px;
+    margin:auto;
+    background-color:#bc4abc;
+    color:white;
+   
+    border-radius:5px 5px 5px 5px;
+    text-align:center;
+  }
+  .card-home a{
+    color:white;
+    
+  }
+  .nav-home{
+    padding: 3px;
+  }
+  .nav-home>ul{
+    display:flex;
+  }
+  
+   .nav-home > ul>li{
+    list-style:none;
+     color:white;
+    justify-content:space-between;
+     padding-right:10px;
+     padding-left:10px;
+     
+  }
+  .nav-home > ul>li>a{
+    text-decoration:none;
+    font-size:small;
+  }
+  .container{
+    position:relative;
+    border-radius:5px;
+     padding:5px;
+    top:300px;
+    margin:auto;
+    width:450px;
+    background-color:#3584ac;
+    color:white;
+  }
+  .card-login,card-reg{
+    padding-top:10px;
+    display:flex;
+    justify-content:space-around;
+  }
+  .form-row{
+    padding-right:4px;
+    font-size:small;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .form-item{
+    padding:2px 4px 2px 4px;
+  }
+  .input{
+    width:60%;
+    box-sizing: border-box;
+  }
+  .form-only{
+    padding:4px;
+    font-size:small;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .btn{
+    padding:4px;
+    color:white;
+    background-color:#1C2333;
+  }
+  .books{
+    display:flex;
+    justify-content:space-around;
+    background-color:#a19972;
+    margin:10px;
+  }
+  .book{
+    width:200px;
+    height:200px;
+    border: black solid 1px;
+    background-color:#e2d69d;
+    border-bottom-left-radius: 20px 20px;
+    text-align:center;
+    transition:linear 0.6s;
+  }
+  .book:hover{
+    transform: rotate(10deg);
+    opacity:0.6;
+  }

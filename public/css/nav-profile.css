@@ -1,0 +1,33 @@
+.nav-item{
+  
+    padding:4px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  
+    
+  }
+  li>a{
+    text-decoration:none;
+  }
+  .profile-down{
+     display: none;
+    position:absolute;
+     list-style-type: none;
+    background-color:white;
+     min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    z-index:9999;
+    
+  }
+  .dropdown:hover .profile-down{
+    display:block;
+  }
+  .profile-down >li{
+    padding:4px;
+  }
+  .profile-down >li:hover {
+    background-color:#c6fbe7;
+    color:white;
+  }

@@ -1,0 +1,27 @@
+.nav{
+    position:sticky;
+    height:2.5em;
+    background-color:#1a3a15;
+    color:white;
+    display:flex;
+    align-items:center;;
+    justify-content:space-around;
+    padding:4px;
+  }
+  .nav-item{
+    flex:1 1 auto;
+    padding-left:10px;
+    
+  }
+  
+  .nav > .nav-item > a{
+    color:white;
+    text-decoration:none;
+    transition:0.4s;
+  }
+  
+  .nav > .nav-item > a:hover{
+    color:#c6fbe7;
+    font-style:bolder;
+    font-size:smaller;
+  }
